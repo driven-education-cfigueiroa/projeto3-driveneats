@@ -1,0 +1,44 @@
+/* i ❤️ https://www.4devs.com.br/calculadora_regra_tres_simples */
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;700&display=swap");
+
+:root {
+  --color01: #ffffffe5; /* confirmation overlay */
+  --color02: #ffffff;   /* header font, cards bkgd, footer bkgd/font, confirmation font, btn bkgd */
+  --color03: #eeeeee;   /* main bkgd*/
+  --color04: #cbcbcb;   /* footer unselectable btn */
+  --color05: #a6a6a6;   /* p2 card item description */
+  --color06: #50d074;   /* confirmation card bkgd, confirmation card btn font*/
+  --color07: #32b72f;   /* card border selected, card checkmark, footer selectable btn */
+  --color08: #cf2b2b;   /* header background */
+  --color09: #333333;   /* h3 section title, p1 card item title */
+  --color10: #00000040; /* card border unselected */
+  --color11: #000000;   /* p3 card item price, body background (just for contrast) */
+
+  --font01: "Roboto", sans-serif; /* default */
+  --font02: "Righteous", cursive; /* h1, h2, h3 */
+
+  --font-weight01: 300; /* light */
+  --font-weight02: 400; /* normal */
+  --font-weight03: 700; /* bold */
+
+  --font-size01: 0.9375rem; /* 15px */
+  --font-size02: 1rem;      /* 16px */
+  --font-size03: 1.13rem;   /* 18px */
+  --font-size04: 1.25rem;   /* 20px */
+  --font-size05: 1.38rem;   /* 22px */
+  --font-size06: 1.63rem;   /* 26px */
+  --font-size07: 2.75rem;   /* 44px */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font01);
+  font-weight: var(--font-weight02);
+  font-size: var(--font-size02);
+  color: var(--color02);
+  background-color: var(--color11);
+}
