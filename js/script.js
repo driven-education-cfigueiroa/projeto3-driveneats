@@ -66,14 +66,14 @@ function enableBtn() {
   btn.style.backgroundColor = "#32b72f";
   let baseUrl = "https://wa.me/5521970148339?text=";
   let inputText = `Olá, gostaria de fazer o pedido:
-              - Prato: ${pratoName}
-              - Bebida: ${bebidaName}
-              - Sobremesa: ${sobremesaName}
-              Total: R$ ${currencyFormat(
-                treatValue(pratoValue) +
-                  treatValue(bebidaValue) +
-                  treatValue(sobremesaValue)
-              )}`;
+- Prato: ${pratoName}
+- Bebida: ${bebidaName}
+- Sobremesa: ${sobremesaName}
+Total: R$ ${currencyFormat(
+    treatValue(pratoValue) +
+      treatValue(bebidaValue) +
+      treatValue(sobremesaValue)
+  )}`;
   let completeUrl = baseUrl + encodeURIComponent(inputText);
   btn.addEventListener("click", () => {
     location.href = completeUrl;
